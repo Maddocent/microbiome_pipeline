@@ -1,0 +1,36 @@
+---
+title: "Microbiome pipeline"
+author: "Marc A.T. Teunis, Ph.D."
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## A repo that includes installation scripts to get started with microbiome analysis
+
+## Installing Anaconda3
+
+### Download the installation script (for Debian Linux)
+
+The lastest version of Anaconda3 Python Package manager can be downloaded from 
+https://www.anaconda.com/download/#linux
+
+```{bash}
+## Latest version on date January 7th 2019  
+wget https://repo.continuum.io/archive/Anaconda3-2018.12-Linux-x86_64.sh
+
+```
+
+### Check download with checksums
+```{bash}
+sha256sum Anaconda3-2018.12-Linux-x86_64.sh
+```
+should be: 1019d0857e5865f8a6861eaf15bfe535b87e92b72ce4f531000dc672be7fce00  Anaconda3-2018.12-Linux-x86_64.sh
+
+### Run installation script
+```{bash}
+bash Anaconda3-5.2.0-Linux-x86_64.sh
+```
+
+
+
+
